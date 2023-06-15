@@ -14,8 +14,8 @@ return (
         {
             tabs.map((tab)=>(
                 <li
-                onClick={()=>setTabClick(tab.title)}
-                >{tab.title}</li>
+                onClick={()=>setTabClick(tab.contents)}
+                >{tab.titles}</li>
             ))
         }
 
